@@ -1,0 +1,7 @@
+#This project compared a classical, rule-based navigation approach with a modified PPO reinforcement learning policy for embodied autonomous navigation in a custom-built 2D simulation environment.
+
+The classical navigation method demonstrated consistent and interpretable behaviour in simple, structured scenarios, benefiting from deterministic control logic and minimal training requirements. However, its performance degraded as environmental complexity increased, with higher collision rates and reduced adaptability, highlighting the limitations of hand-engineered rules under distributional shifts.
+
+In contrast, the PPO-based policy learned smoother and more adaptive navigation behaviours, particularly in cluttered environments. The learning-based approach showed improved path efficiency and robustness to scenario variation, but remained sensitive to reward design, training stability, and hyperparameter choices, leading to occasional failure modes that are difficult to anticipate or formally guarantee.
+
+Overall, the results reflect a fundamental trade-off in embodied autonomy: classical pipelines offer reliability and transparency, while reinforcement learning provides adaptability and emergent behaviours at the cost of predictability and safety assurances. These findings reinforce the importance of hybrid approaches and principled safety mechanisms when deploying learning-based control in real-world autonomous systems.#
